@@ -7,7 +7,7 @@ public class TrainControllerImpl implements TrainController {
 	private int step = 0;
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
-	public boolean isTrainAhead = false;
+	public boolean isTrainAhead = fal
 	public int trainAheadSpeed = 0;
 
 	@Override
