@@ -62,7 +62,7 @@ public class TrainControllerImpl implements TrainController {
 			try {
 				this.referenceSpeed += 5;
  				Thread.sleep(1000);
-			} catch (InteruptExeption e) {
+			} catch (InterruptExeption e) {
 			}
 		});
 		f.start();
